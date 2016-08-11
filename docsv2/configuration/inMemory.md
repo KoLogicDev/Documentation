@@ -9,7 +9,7 @@ The in-memory services and stores are an easy way to get a test/dev version of I
 If not specifically configured we will always provide an in-memory version stores for authorization codes, consent, 
 reference and refresh tokens.
 
-For clients, stores and users you need to supply a static list of `Client`, `Scope` and `InMemoryUser`.
+For clients, scopes and users you need to supply a static list of `Client`, `Scope` and `InMemoryUser`.
 
 **This is only suitable for testing and development.**
 
